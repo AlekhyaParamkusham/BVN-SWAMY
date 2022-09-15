@@ -1,0 +1,97 @@
+.banOuter {
+  margin-top: 90px;
+  background-color: #f0e9d2;
+  border-radius: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.banInner {
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.banImg {
+  height: 350px;
+  width: 350px;
+}
+
+.banText {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.banBlock p {
+  font-size: 15px;
+  line-height: 5px;
+  font-family: "Yuji Syuku", serif;
+  font-style: italic;
+  color: black;
+}
+
+.source {
+  justify-content: right;
+  display: flex;
+  align-items: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .banOuter {
+    max-width: 80vw;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .banImg {
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .banText {
+    width: auto;
+    display: block;
+  }
+  .banFig {
+    width: auto;
+    padding: 10px;
+    height: 250px;
+  }
+  .banBlock {
+    justify-content: center;
+    overflow: hidden;
+    height: 250px;
+    padding-top: 30px;
+  }
+
+  .banBlock p {
+    font-size: 11px;
+    line-height: 3px;
+    justify-content: center;
+  }
+  .source {
+    justify-content: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

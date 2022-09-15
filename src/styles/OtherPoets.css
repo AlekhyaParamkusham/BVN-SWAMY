@@ -1,0 +1,72 @@
+.otherOuter {
+  margin-top: 30px;
+  background-color: #f0e9d2;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+.otherOuter h2 {
+  font-size: 40px;
+  font-family: "NTR", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  color: #cd1818;
+}
+
+.poetBody h4 {
+  text-align: center;
+  font-weight: bold;
+  color: #2e4c6d;
+  margin-bottom: 20px;
+}
+.poetInner {
+  margin-bottom: 30px;
+  /* border-radius: 40px; */
+}
+
+.poetCard {
+  /* height: 380px; */
+  height: max-content;
+
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.poetBody p {
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "Ramabhadra", sans-serif;
+  text-align: left;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .otherOuter {
+    max-width: 80vw;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .poetBody h4 {
+    font-size: 18px;
+  }
+
+  .otherOuter h2 {
+    font-size: 28px;
+  }
+
+  .poetCard {
+    /* height: 750px; */
+      height: max-content;
+      padding: 10px
+  }
+  .poetBody{
+    max-height: max-content;
+  }
+
+  .poetBody p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+

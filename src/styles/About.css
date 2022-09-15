@@ -1,0 +1,24 @@
+h3 {
+  color: #950101;
+}
+
+.accDiv {
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #519259;
+}
+.accordion-button:hover {
+  background-color: #e4cda7;
+}
+
+.accordion-button {
+  background-color: #519259;
+}
+
+:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}

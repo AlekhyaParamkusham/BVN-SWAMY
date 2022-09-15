@@ -1,0 +1,20 @@
+.ssOuter {
+  margin-top: 90px;
+}
+
+.sscardDiv {
+  width: 18rem;
+  margin: auto;
+  display: flex;
+  border: 1px solid #3e8e7e;
+}
+
+.ssImg {
+  height: 10rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.ssImg:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,88 @@
+.cardDiv {
+  border-radius: 20px;
+  background-color: #faedc6;
+  border-color: #fc997c;
+  max-width: 640px;
+  padding: 20px;
+}
+.imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.articleImg {
+  height: 300px;
+  width: 600px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.articleImg:hover {
+  transform: scale(1.05);
+}
+
+.articleText {
+  font-family: "Ramabhadra", sans-serif;
+  font-size: 20px;
+}
+
+.published {
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .articleImg {
+    height: 250px;
+    width: 200px;
+  }
+  .cardDiv {
+    width: 250px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .articleImg {
+    height: 350px;
+    width: 300px;
+  }
+  .cardDiv {
+    width: 650px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .articleImg {
+    height: 300px;
+    width: 600px;
+  }
+  .cardDiv {
+    max-width: 640px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .articleImg {
+    height: 300px;
+    width: 600px;
+  }
+  .cardDiv {
+    max-width: 640px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .articleImg {
+    height: 300px;
+    width: 600px;
+  }
+  .cardDiv {
+    max-width: 740px;
+  }
+}
